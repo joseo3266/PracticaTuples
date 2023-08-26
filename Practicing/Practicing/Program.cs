@@ -19,8 +19,7 @@ var score = GetScore();
 Console.WriteLine($"Name: {score.Name}, Points: {score.Points}, Level: {score.Level}");
 */
 
-(int, int) a = (1, 2);
-(int, int) b = (1, 2);
 
+var a = (X: 2, Y: 4);
+var b = (U: 2, V: 4);
 Console.WriteLine(a == b);
-Console.WriteLine(a != b);
